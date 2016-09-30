@@ -9,12 +9,12 @@
   <packaging>pom</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jetty.version>9.3.12.v20160915</jetty.version>
+    <jetty.version>9.3.11.M0</jetty.version>
   </properties>
   <modules>
     <module>jetty-module-openejb</module>
     <module>jetty-module-logging-logback</module>
-    <module>examples</module>
+    <!-- <module>examples</module> -->
   </modules>
   <dependencyManagement>
     <dependencies>
